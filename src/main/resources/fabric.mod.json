@@ -18,7 +18,10 @@
     ],
     "client": [
       "reborncore.RebornCoreClient"
-    ]
+    ],
+	"autoswitch": [
+	  "reborncore.Test"
+	]
   },
   "mixins": [
     "reborncore.client.mixins.json",

@@ -30,6 +30,7 @@ targetCompatibility = 1.8
 repositories {
 	mavenCentral()
 	jcenter()
+    maven { url 'https://jitpack.io' }
 }
 
 version = "4.3.2"
@@ -63,6 +64,8 @@ dependencies {
 	include 'teamreborn:energy:0.1.0'
 
 	ctRuntime "CurseTools:CurseTools:+"
+
+    modImplementation 'com.github.dexman545:autoswitch-api:-SNAPSHOT'
 }
 
 processResources {
